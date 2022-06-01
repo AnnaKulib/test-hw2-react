@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-hw2-react/static/css/main.7acaea2f.css",
+    "main.js": "/test-hw2-react/static/js/main.07d3183d.js",
+    "index.html": "/test-hw2-react/index.html",
+    "main.7acaea2f.css.map": "/test-hw2-react/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/test-hw2-react/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
