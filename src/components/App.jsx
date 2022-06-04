@@ -5,7 +5,7 @@ import Dropdown from './Dropdown';
 import ColorPicker from './ColorPicker';
 import TodoList from './TodoList';
 import intialTodos from '../todos.json';
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
 
 const colorPickerOptions = [
   { label: 'red', color: '#F44336' },
