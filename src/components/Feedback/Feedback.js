@@ -1,7 +1,7 @@
 import React from 'react';
 import Controls from './Controls';
 import Statistics from './Statistics';
-import s from './Feedback.module.css';
+// import s from './Feedback.module.css';
 
 class Feedback extends React.Component {
   state = {
@@ -19,8 +19,8 @@ class Feedback extends React.Component {
   render() {
     return (
       // <div><Controls onIncrement={this.handleOnButtonClick}/></div>
-      <div className={s.feedbackContainer}>
-        <p className={s.text}>Please leave feedback</p>
+      <div>
+        <p>Please leave feedback</p>
         <Controls value={'Good'} onIncrement={this.handleOnButtonClick} />
         <Statistics value={this.state.value} />
       </div>

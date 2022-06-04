@@ -1,14 +1,14 @@
 import React from 'react';
-import s from './Statistics.module.css';
+// import s from './Statistics.module.css';
 
 const Statistics = ({ value }) => (
   <div>
-    <p className={s.text}>Statistics</p>
-    <span className={s.span}>Good:{value}</span>
+    <p>Statistics</p>
+    <span>Good:{value}</span>
     <br />
-    <span className={s.span}>Neutral:</span>
+    <span>Neutral:</span>
     <br />
-    <span className={s.span}>Bad:</span>
+    <span>Bad:</span>
   </div>
 );
 
